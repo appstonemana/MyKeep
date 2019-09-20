@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements NoteAdapter.OnIte
             }
         });
 
+        //StaggeredGridLayoutManager staggeredGridLayoutManager = new StaggeredGridLayoutManager(2, LinearLayoutManager.VERTICAL);
         mRv = findViewById(R.id.rview);
         mRv.setLayoutManager(new LinearLayoutManager(MainActivity.this));
 
